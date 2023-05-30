@@ -1,4 +1,4 @@
-const allowedOrigins = [
+const allowedOrigins:String[] = [
     'http://localhost:3000',
     'http://localhost:4200',
 ]

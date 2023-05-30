@@ -1,7 +1,7 @@
-import allowedOrigins from "./allowedOrigins.js";
+import allowedOrigins from './allowedOrigins'
 
 const corsOptions = {
-    origin: (origin,callback) => {
+    origin: (origin:String,callback:Function) => {
         if(allowedOrigins.indexOf(origin) !== -1 || !origin) {
             callback(null, true);
         } else {
