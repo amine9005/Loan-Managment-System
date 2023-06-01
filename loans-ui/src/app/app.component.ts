@@ -6,11 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'loans-ui';
-  iconsStyle = {
-    "fontSize":"20px"
+  title = 'Loan Manager';
 
-  }
 
 
 }

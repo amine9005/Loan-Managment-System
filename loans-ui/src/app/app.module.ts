@@ -17,6 +17,8 @@ import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzMenuModule } from 'ng-zorro-antd/menu';
 import { NzCollapseModule } from 'ng-zorro-antd/collapse';
 import { NzIconModule } from 'ng-zorro-antd/icon';
+import { HeaderComponent } from './header/header.component';
+import { LayoutComponent } from './layout/layout.component';
 
 
 registerLocaleData(en);
@@ -24,6 +26,8 @@ registerLocaleData(en);
 @NgModule({
   declarations: [
     AppComponent,
+    HeaderComponent,
+    LayoutComponent,
   ],
   imports: [
     BrowserModule,
