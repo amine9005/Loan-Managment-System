@@ -1,9 +1,9 @@
-import express from "express"
+import express from "express";
 
-const router = express.Router()
+const indexRouter = express.Router();
 
-router.get('/', (req, res) => {
-    res.status(200).json({ message:"api is ready and waiting!",data:{}})
-})
+indexRouter.get("/", (req, res) => {
+  res.status(200).json({ message: "api is ready and waiting!", data: {} });
+});
 
-export default router;
+export default indexRouter;

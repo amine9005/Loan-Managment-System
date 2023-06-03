@@ -19,6 +19,10 @@ import { NzCollapseModule } from 'ng-zorro-antd/collapse';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 import { HeaderComponent } from './header/header.component';
 import { LayoutComponent } from './layout/layout.component';
+import { NzAvatarModule } from 'ng-zorro-antd/avatar';
+import { UserAvatarComponent } from './user-avatar/user-avatar.component';
+import { FooterComponent } from './footer/footer.component';
+
 
 
 registerLocaleData(en);
@@ -28,6 +32,8 @@ registerLocaleData(en);
     AppComponent,
     HeaderComponent,
     LayoutComponent,
+    UserAvatarComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
@@ -42,6 +48,7 @@ registerLocaleData(en);
     NzMenuModule,
     NzCollapseModule,
     NzIconModule,
+    NzAvatarModule,
   ],
   providers: [
     { provide: NZ_I18N, useValue: en_US }

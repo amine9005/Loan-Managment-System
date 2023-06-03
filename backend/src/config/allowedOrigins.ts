@@ -1,6 +1,6 @@
-const allowedOrigins:String[] = [
-    'http://localhost:3000',
-    'http://localhost:4200',
-]
+const allowedOrigins: String[] = [
+  "http://localhost:3000",
+  "http://localhost:4200",
+];
 
-export default allowedOrigins
+export default allowedOrigins;
